@@ -1,0 +1,10 @@
+.projects {
+  // border: solid #fff;
+  width: 50vw;
+  left: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(2, 48%);
+  grid-gap: 2%;
+}

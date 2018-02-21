@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import 'grid';
+@import 'modal';
+
+// Variables
+$f-size: 2.75em;
+$fam: 'Roboto', sans-serif;
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../../img/ash-edmonds-fx.jpg");
+  background-size:cover;
+}
+
+h1 {
+	color:#fff;
+	font-family: $fam;
+	font-size: $f-size;
+	padding: 0 1em;
+  animation: slide-in 2s ease;
+}
+
+.nav {
+  animation: slide-in 2s ease;
+}
+
+@keyframes slide-in {
+  0% {transform: translate(-200%)}
+  100% {transform: translate(0)}
+}
+
+figure {
+	width: 10vw;
+}
+
+figure img {
+	width: 100%;
+}
+
+.grid-item a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-family: $fam;
+
+  figure:hover{
+    transition: transform 0.2s ease-out;
+    transform: scale(1.15);
+  }
+}
+
+.flex-container {
+	display:flex;
+}
+
+.nav {
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+}
+
+.nav a {
+	color: #fff;
+	text-decoration: none;
+	font-family: $fam;
+	transition: transform 0.2s ease-out;
+}
+
+.nav a:hover {
+	transform: scale(1.15);
+}
+
+.close {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+
+  &:hover {
+    color: red;
+  }
+}
+
+//fixes
+.windsor {
+  margin-top: 10%;
+}
+
+// lightspeed

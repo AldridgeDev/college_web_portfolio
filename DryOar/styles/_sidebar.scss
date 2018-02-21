@@ -1,0 +1,32 @@
+.sidebar {
+  position: fixed;
+  display: block;
+  height: 9999px;
+  width: 6%;
+  background-color: lightgray;
+  z-index: 1;
+  border-right: 1px solid black;
+  margin-left: -5%;
+
+  i {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    padding: 15% 0;
+
+    &:nth-child(1) {
+      margin-top: 50%;
+    }
+
+    &:hover {
+      background-color: orange;
+      color: black;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

@@ -1,0 +1,170 @@
+header img {
+  width: 100%;
+  bottom: 0;
+}
+
+.main__wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 5% 2% 2% 2%;
+  text-align: center;
+  line-height: 2.25em;
+  padding-bottom: 5%;
+}
+
+.flex {
+  display: flex;
+}
+
+.a__center {
+  align-items: center;
+}
+
+.colside {
+    padding-bottom: 2%;
+  p {
+    width: 35%;
+    font-size: 1.25em;
+    margin-left: 15%;
+    line-height: 175%;
+  }
+
+  img:nth-child(odd) {
+    margin-left: 5%;
+  }
+
+  img:nth-child(even) {
+    margin-left: 23%;
+  }
+}
+
+.colside h1 {
+  line-height: 200%;
+}
+
+.col__one h1, .col__three h1 {
+  margin-left: 2%;
+}
+
+.col__two {
+  h1 {
+    text-align: right;
+    margin-right: 2%;
+  }
+  img {
+    width: 25%;
+  }
+}
+
+.col__three {
+  img {
+    width: 26%;
+  }
+}
+
+.info__wrapper div:nth-child(odd) {  //how you use divs for nth-child
+  background-color: $fade-color;
+}
+
+footer {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+.tut_nav {
+  float: none;
+  clear: both;
+  width: 30%;
+  // margin: 10% auto;
+  margin: 5% 0 5% 5%;
+  background: #eee;
+}
+
+.tut_nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tut_nav li{
+	float: none;
+  width: 100%;
+}
+
+.tut_nav li a{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border-left: 5px solid;
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+  color: #444;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.tut_nav li a:hover {
+  border-bottom: 0;
+  color: #fff;
+}
+
+.tut_nav li a {
+  border-left: 10px solid #3498db;
+}
+
+
+.tut_nav li a:after {
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0px;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+
+.tut_nav li a:hover:after {
+        width: 100%;
+      }
+
+.tut_nav li a:after{ background: #3498db; }
+
+
+
+
+
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/boeCNmOCCh-EWFLSfVffDg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+}
+
+// *******************************************************************
+// Credit goes to Larry Geams Parangan for creating the functionality
+// https://codepen.io/larrygeams/pen/pdchG
+// *******************************************************************

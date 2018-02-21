@@ -1,0 +1,18 @@
+//////////////////////////////////
+// Typography //
+//////////////////////////////////
+
+h1, h2, p {
+  font-family: "Josefin Slab", Arial, serif;
+}
+
+header h1 {
+  position: absolute;
+  // top: 200px;
+  top: 15%;
+  text-align: center;
+  margin: auto;
+  width: 95%;
+  color: white;
+  font-size: 10em;
+}

@@ -1,0 +1,41 @@
+///////////////////////////
+//  Navigation //
+///////////////////////////
+
+
+.banner nav {
+  position: relative;
+  width: 100%;
+}
+
+nav,
+nav ul {
+  max-width: 100%;
+}
+
+nav ul {
+  position: absolute;
+  top: -50px;
+  // left:
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+}
+
+nav ul li a {
+  display: inline-block;
+  color: white;
+  font: bold 24px/45px 'Quicksand', Sans-Serif;
+  text-decoration: none;
+  letter-spacing: -1px;
+  padding: 0 .5em 0 .5em;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    background-color: $nav;
+    transform: scale(1.1);
+  }
+}

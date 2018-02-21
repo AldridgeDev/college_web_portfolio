@@ -1,0 +1,65 @@
+.tut_options {
+  margin: 5% 5% 5% 1%;
+  background-color: #eee;
+  width: 30%;
+  height: auto;
+  display: none;
+}
+
+.tut_options:target {
+  display: block;
+  animation: slide 0.5s;
+}
+
+.options {
+  width: auto;
+
+  li {
+    list-style-type: none;
+    font-family: georgia, sans-serif;
+    padding: 0.5% 0;
+  }
+
+  a {
+    color: #444;
+    text-decoration: none;
+    margin-left: 4%;
+  }
+}
+
+.tut_wrapper {
+  display: flex;
+}
+
+.tut_nav ul li a {
+  cursor: pointer;
+}
+
+@keyframes slide {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media screen and (max-width: 1024px) {
+  .tut_options {
+    margin-left: 1%;
+    width: 50%;
+  }
+
+  .tut_nav {
+    width: 50%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .tut_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tut_options,
+  .tut_nav {
+    width: 100%;
+  }
+}

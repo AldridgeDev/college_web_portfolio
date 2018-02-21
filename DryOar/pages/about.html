@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../style.css" class="css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <title>About</title>
+</head>
+
+<header id="page-header">
+  <div class="banner wrapper">
+    <img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="banner">
+    <h1>Dry Oar</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="rates.html">Rates</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<body>
+  <!-- jquery accordion  -->
+
+  <!-- <div class="accordion-container">
+    <h2>jQuery Accordion</h2>
+    <div class="set">
+      <a href="#">
+        Vestibulum
+        <i class="fa fa-plus"></i>
+      </a>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      </div>
+    </div>
+    <div class="set">
+      <a href="#">
+        Phasellus
+        <i class="fa fa-plus"></i>
+      </a>
+      <div class="content">
+        <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
+      </div>
+    </div>
+    <div class="set">
+      <a href="#">
+        Praesent
+        <i class="fa fa-plus"></i>
+      </a>
+      <div class="content">
+        <p>Pellentesque aliquam ligula libero, vitae imperdiet diam porta vitae. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      </div>
+    </div>
+    <div class="set">
+      <a href="#">
+        Curabitur
+        <i class="fa fa-plus"></i>
+      </a>
+      <div class="content">
+        <p> Donec tincidunt consectetur orci at dignissim. Proin auctor aliquam justo, vitae luctus odio pretium scelerisque. </p>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Bootstrap Accordion -->
+
+  <div class="container">
+  <div class="col-md-6 col-sm-6">
+    <h3>Default collapse with scaling icon</h3>
+    <div class="panel-group wrap" id="bs-collapse">
+
+      <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#" href="#one">
+          Collapse item #1
+        </a>
+      </h4>
+        </div>
+        <div id="one" class="panel-collapse collapse">
+          <div class="panel-body">
+            Where now are the horse and the rider? Where is the horn that was blowing? Where is the helm and the hauberk, and the bright hair flowing?
+          </div>
+        </div>
+
+      </div>
+      <!-- end of panel -->
+
+      <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#" href="#two">
+         Collapse item #2
+        </a>
+      </h4>
+        </div>
+        <div id="two" class="panel-collapse collapse">
+          <div class="panel-body">
+            Where is the harp on the harpstring, and the red fire glowing? Where is the spring and the harvest and the tall corn growing?
+          </div>
+
+        </div>
+      </div>
+      <!-- end of panel -->
+
+      <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#" href="#three">
+          Collapse item #3
+        </a>
+      </h4>
+        </div>
+        <div id="three" class="panel-collapse collapse">
+          <div class="panel-body">
+            The days have gone down in the West behind the hills into shadow. Who shall gather the smoke of the deadwood burning, Or behold the flowing years from the Sea returning?
+          </div>
+        </div>
+      </div>
+      <!-- end of panel -->
+
+      <div class="panel">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#" href="#four">
+         Collapse item #4
+        </a>
+      </h4>
+        </div>
+        <div id="four" class="panel-collapse collapse in">
+          <div class="panel-body">
+            They have passed like rain on the mountain, like a wind in the meadow; The days have gone down in the West behind the hills into shadow.
+          </div>
+        </div>
+      </div>
+      <!-- end of panel -->
+
+    </div>
+    <!-- end of #bs-collapse  -->
+
+  </div>
+
+  <div class="col-md-6 col-sm-6">
+    <h3>Accordion collapse with rotating icon</h3>
+    <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible item #1
+        </a>
+      </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+          </div>
+        </div>
+      </div>
+      <!-- end of panel -->
+
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingTwo">
+          <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible item #2
+        </a>
+      </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+          </div>
+        </div>
+      </div>
+      <!-- end of panel -->
+
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible item #3
+        </a>
+      </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+          </div>
+        </div>
+      </div>
+      <!-- end of panel -->
+
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingFour">
+          <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Collapsible item #4
+        </a>
+      </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+          </div>
+        </div>
+      </div>
+      <!-- end of panel -->
+
+    </div>
+    <!-- end of #accordion -->
+
+  </div>
+  <!-- end of wrap -->
+
+</div>
+<!-- end of container -->
+</body>
+<script>
+// jquery accordion
+  // $(document).ready(function() {
+  //   $(".set > a").on("click", function() {
+  //     if ($(this).hasClass('active')) {
+  //       $(this).removeClass("active");
+  //       $(this).siblings('.content').slideUp(200);
+  //       $(".set > a i").removeClass("fa-minus").addClass("fa-plus");
+  //     } else {
+  //       $(".set > a i").removeClass("fa-minus").addClass("fa-plus");
+  //       $(this).find("i").removeClass("fa-plus").addClass("fa-minus");
+  //       $(".set > a").removeClass("active");
+  //       $(this).addClass("active");
+  //       $('.content').slideUp(200);
+  //       $(this).siblings('.content').slideDown(200);
+  //     }
+  //   });
+  // });
+
+  // Bootstrap Accordion
+  $(document).ready(function() {
+  $('.collapse.in').prev('.panel-heading').addClass('active');
+  $('#accordion, #bs-collapse')
+    .on('show.bs.collapse', function(a) {
+      $(a.target).prev('.panel-heading').addClass('active');
+    })
+    .on('hide.bs.collapse', function(a) {
+      $(a.target).prev('.panel-heading').removeClass('active');
+    });
+});
+</script>
+
+</html>

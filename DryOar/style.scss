@@ -1,0 +1,25 @@
+$fade-color: lightgray;
+$nav: orange;
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+@import 'styles/layout.scss';
+@import 'styles/nav.scss';
+@import 'styles/typography.scss';
+@import 'styles/grid.scss';
+@import 'styles/parallax.scss';
+@import 'styles/sidebar.scss';
+
+// work
+@import 'styles/tutorial.scss';
+
+// work and play
+// @import 'styles/accordion.scss';
+// @import 'styles/checkboxhack.scss';
